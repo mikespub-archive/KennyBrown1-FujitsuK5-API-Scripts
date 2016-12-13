@@ -12,7 +12,7 @@ risk. Testing is advised prior to running in a live environment.
 # Instructions
 
 These scripts were run from a Centos 7 VM outside the
-Fujitsu K5 platform, but they should run ok from any internet connected
+Fujitsu K5 platform, but they should run ok from any internet connected Linux
 machine.
 
 1 - Populate the k5Default.rc file with your K5 Account
