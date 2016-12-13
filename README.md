@@ -3,21 +3,19 @@
 # FujitsuK5-API-Scripts
 Fujitsu K5 API script repository
 
-This repository contains the API script that I have put
-together when building an environment within the Fujitsu K5 IaaS cloud.
+This repository contains the bash scripts that I have put together when building an environment within the Fujitsu K5 IaaS cloud.
 
-Any use of the scripts within this repository is at your own
-risk. Testing is advised prior to running in a live environment.
+These scripts are generally single action API calls to create, view, modify or delete elements within Fujitsu K5
+
+Any use of the scripts within this repository is at your own risk. Testing is advised prior to running in a live environment.
 
 # Instructions
 
 These scripts were run from a Centos 7 VM outside the
-Fujitsu K5 platform, but they should run ok from any internet connected Linux
-machine.
+Fujitsu K5 platform, but they should run ok from any internet connected Linux machine.
 
-1 - Populate the k5Default.rc file with your K5 Account
-details (All the scripts rely on this file so make sure the path is correct
-within the script.
+1 - Populate the k5Default.rc file with your K5 Account details (All the scripts rely on this file so make sure the path is correct
+within the script).
 
 2 - Generate authentication token using token.sh
 
